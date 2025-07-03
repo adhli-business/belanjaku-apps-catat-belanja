@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">belanjaku</string>
+    <string name="app_name">BelanjaKu</string>
+    <string name="tagline">Belanja Mudah, Hemat Setiap Hari</string>
+    <string name="loading">Loading...</string>
 </resources>

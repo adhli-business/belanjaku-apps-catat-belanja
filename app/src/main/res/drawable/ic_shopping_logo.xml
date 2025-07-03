@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle -->
+    <path
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2" />
+
+    <!-- Shopping Cart -->
+    <path
+        android:pathData="M25,35 L35,35 L42,65 L85,65 L90,45 L40,45"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Cart Wheels (Circle menggunakan Path) -->
+    <path
+        android:pathData="M45,75 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M80,75 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Shopping Bag -->
+    <path
+        android:pathData="M55,25 L75,25 L75,35 L55,35 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8" />
+
+    <path
+        android:pathData="M60,20 Q65,15 70,20 Q70,25 65,25 Q60,25 60,20"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Sparkle Effects -->
+    <path
+        android:pathData="M30,25 L32,30 L30,35 L28,30 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6" />
+
+    <path
+        android:pathData="M85,30 L87,35 L85,40 L83,35 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6" />
+
+    <path
+        android:pathData="M95,60 L97,65 L95,70 L93,65 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6" />
+</vector>
